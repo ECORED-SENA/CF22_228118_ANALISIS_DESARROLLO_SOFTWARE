@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 25%
+    left: 0%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 10%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    bottom: 15%
+    right: 15%
 
 
 @keyframes float1
@@ -17,3 +22,147 @@
 
   100%
     transform: translateY(0px)
+
+//Banners
+.banner-principal__info
+  @media screen and (max-width: $bp-max-xl)
+    padding-right: 5rem
+  @media screen and (max-width: $bp-max-md)
+    padding-right: 1.125rem
+.banner-principal__img
+  padding-bottom: 0 !important
+  padding-top: 3.5rem !important
+  align-self: end
+  img
+    max-width: 505px
+    margin: 0 auto
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right
+    background-image: url(../assets/curso/fondo_tema.png) !important
+.titulo-principal.color-acento-contenido
+  .titulo-principal__numero
+    span
+      color: $color-sistema-texto
+
+//colores de fondo
+.fondo-color-sistema-i
+  background-color: $color-sistema-i !important
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido !important
+.fondo-color-primario
+  background-color: $color-primario !important
+.fondo-color-sistema-j
+  background-color: $color-sistema-j !important
+.fondo-color-sistema-k
+  background-color: $color-sistema-k !important
+.fondo-color-sistema-l
+  background-color: $color-sistema-l !important
+
+//colores
+.c-color-secundario
+  color: $color-secundario !important
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.f1
+    &:before
+      top: -15px
+      background: rgb(255,255,255)
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,239,255,1) 100%)
+  &.bottom-1
+    &:before
+      bottom: 180px 
+  &__contenido
+    position: relative
+
+
+//bordes
+.borde-12
+  border-radius: 12px !important
+.borde-8
+  border-radius: 8px !important
+
+//textos
+.b-txt-g-1
+  .bloque-texto-g__img
+    width: 40%
+    @media(max-width: 992px)
+      width: 100%
+  .bloque-texto-g__texto
+    width: 74%
+    @media(max-width: 992px)
+      width: 100%
+  
+.bloque-codigo-personalizado
+  width: 100%
+  border-radius: 9px
+  overflow: hidden
+  .cabecera-bloque-codigo
+    background-color: $color-primario !important
+    .bloque-codigo-circulos
+      display: flex
+      gap: 1em
+      .bloque-codigo-circulo
+        height: 16px
+        width: 16px
+        border-radius: 50%
+        &.c1
+          background-color: #FB130D
+        &.c2
+          background-color: #FECD02
+        &.c3
+          background-color: #43DFAA
+  .cuerpo-bloque-codigo
+    color: white !important
+    background-color: #110628 !important
+    overflow-x: auto
+    text-wrap: nowrap
+    code
+      font-family: $base-font-family
+      color: white !important
+
+//listas
+.lista-p-1
+  li
+    display: flex
+    align-items: start
