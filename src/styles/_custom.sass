@@ -214,6 +214,21 @@
     align-items: start
 
 //tablas
+.tabla-personalizada-2
+  td
+    border-color: $color-sistema-q
+    &:last-child
+      border-right: none
+    &:first-child
+      border-left: none
+  tr
+    &:first-child
+      td
+        border-top: none
+    &:last-child
+      td
+        border-bottom: none
+
 .tabla-personalizada-1
   td,th
     padding: 1.1em
@@ -221,6 +236,21 @@
     border-left: none
     border-bottom: none
     border-top: none
+    &:last-child
+      border-right: none
+
+  thead
+    border-top: none
+    background-color: $color-sistema-l
+    color: white
+
+.tabla-personalizada-3
+  table
+    min-width: 400px
+  td,th
+    padding: 1.1em
+    border-color: white
+    border-left: none
     &:last-child
       border-right: none
 
