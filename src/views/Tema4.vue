@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Creación de servicios
     
-    p.mb-4 Indican que es una tecnología que establece unos estándares y protocolos que se utilizan para intercambiar datos entre distintas aplicaciones, plataformas y con diferentes o iguales lenguajes de programación. Por lo general, se utilizan estándares abiertos, lo que comúnmente se llama interoperabilidad; las organizaciones OASIS y W3C son los comités responsables de la arquitectura y la reglamentación de los servicios web. Sayago et al. (2019)
+    p.mb-4(data-aos="fade-up") Indican que es una tecnología que establece unos estándares y protocolos que se utilizan para intercambiar datos entre distintas aplicaciones, plataformas y con diferentes o iguales lenguajes de programación. Por lo general, se utilizan estándares abiertos, lo que comúnmente se llama interoperabilidad; las organizaciones OASIS y W3C son los comités responsables de la arquitectura y la reglamentación de los servicios web. Sayago et al. (2019)
 
-    .bloque-texto-g.b-txt-g-1.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.b-txt-g-1.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/33.png')})`}"
       )
       .bloque-texto-g__texto.p-4.p-lg-5
         p.mb-0 La función es permitir que los dispositivos interactúen entre sí y presenten información dinámica al usuario, basándose en una arquitectura de referencia estándar, que hace posible su combinación para realizar integraciones entre las mismas aplicaciones.
     
-    .cont-titulo-decorativo.p-2.mt-4.mb-4
+    .cont-titulo-decorativo.p-2.mt-4.mb-4(data-aos="fade-left")
       .row
         .col-auto.pe-0
           figure

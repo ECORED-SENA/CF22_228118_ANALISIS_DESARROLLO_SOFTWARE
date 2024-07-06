@@ -2,18 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Conexiones a SQL
     
     .fondo-personalizado-1.f1
       .fondo-personalizado-1__contenido.pb-5
-        p.mb-4 Para iniciar con este tema, es preciso recordar que SQL (#[em Structured Query Language]) es un lenguaje de consulta estructurado, definido como la base de las bases de datos relacionales con el lenguaje de alto nivel estándar.
+        p.mb-4(data-aos="fade-up") Para iniciar con este tema, es preciso recordar que SQL (#[em Structured Query Language]) es un lenguaje de consulta estructurado, definido como la base de las bases de datos relacionales con el lenguaje de alto nivel estándar.
 
-        p.mb-4.fw-bold De acuerdo con García (2003), SQL agrupa tres tipos de sentencias con objetivos particulares, en los siguientes lenguajes:
+        p.mb-4.fw-bold(data-aos="fade-up") De acuerdo con García (2003), SQL agrupa tres tipos de sentencias con objetivos particulares, en los siguientes lenguajes:
 
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
           .col-lg-5
             .fondo-color-sistema-p.borde-12.py-3.px-4.px-md-5.mb-2
               p.mb-0.text-white #[b DDL] (Lenguaje de Definición de Datos)
@@ -25,9 +25,9 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/40.png",style="max-width: 295px;")
         
-        p.mb-4 El grupo de sentencias de SQL soporta la definición y declaración de los objetos de la base de datos, tales como:
+        p.mb-4(data-aos="fade-up") El grupo de sentencias de SQL soporta la definición y declaración de los objetos de la base de datos, tales como:
         
-        .row.justify-content-center 
+        .row.justify-content-center(data-aos="fade-up")
           .col-lg-7
             .borde-12.fondo-color-sistema-j.overflow-hidden.tabla-personalizada-2
               table
@@ -54,7 +54,7 @@
                     td.ps-lg-5 #[em #[b TABLE:]]
                     td.ps-lg-5 tablas
         
-        .cont-titulo-decorativo.p-2.mt-5.mb-5
+        .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade-up")
           .row
             .col-auto.pe-0
               figure
@@ -62,7 +62,7 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Grupo de sentencias de SQL
         
-        .row 
+        .row(data-aos="fade-down")
           .col-md-auto.mb-4.mb-md-0
             .fondo-color-acento-contenido.py-2.px-5.borde-12
               figure
