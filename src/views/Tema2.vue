@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Clases y objetos
@@ -10,15 +10,15 @@
     .fondo-personalizado-1.f1.bottom-1
       .fondo-personalizado-1__contenido
         .row.mb-4
-          .col-lg-7
+          .col-lg-7(data-aos="fade-right")
             .fondo-color-sistema-j.py-5.px-4
               p.mb-0 Las clases son contenedores de información basados en atributos y en métodos de construcción, los cuales pueden modificar y consultar; son suficientes para representar objetos con los cuales se procesa información y se usan para hacer objetos que tienen un mismo comportamiento, estado e identidad.
-          .col-lg-5.order-first.order-lg-last
+          .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/8.png",style="max-width: 502px;")
         
-        p.mb-0 #[b Ejemplo:]
-        p.mb-4 Se tiene una clase “personas” (Mario, Margarita y Alejandro), donde el comportamiento de las personas es leer, trabajar, jugar, etc.; pueden estar en estado despierto o dormido; sus propiedades pueden ser color de ojos, género, estado civil, etc.
+        p.mb-0(data-aos="fade") #[b Ejemplo:]
+        p.mb-4(data-aos="fade-left") Se tiene una clase “personas” (Mario, Margarita y Alejandro), donde el comportamiento de las personas es leer, trabajar, jugar, etc.; pueden estar en estado despierto o dormido; sus propiedades pueden ser color de ojos, género, estado civil, etc.
         p.mb-4 #[b Su sintaxis sería así:]
 
         .row.align-items-center
@@ -38,7 +38,7 @@
                   | # Métodos
                   br
                   | }
-          .col-lg-5.mb-4
+          .col-lg-5.mb-4(data-aos="fade-left")
             .fondo-color-sistema-k.px-3.py-5.borde-8
               ul.lista-ul.lista-p-1.mb-0
                 li
@@ -47,29 +47,29 @@
                 li.mb-0
                   span.c-color-secundario(style="font-size: 25px;line-height: 1;") &bull;
                   span #[b Ejemplo:] existe una sola clase “Persona”, pero muchos objetos de tipo persona pueden ser instancias de esta clase.
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="fade")
             .fondo-color-sistema-i.borde-8.px-5.pt-3
               figure.mb-4.mb-lg-0
                 img.mx-auto(src="@/assets/curso/temas/9.svg",style="max-width: 249px;")
         
-        p.mb-5 #[b A continuación, revise la diferencia entre clases y objetos con una analogía:]
+        p.mb-5(data-aos="fade") #[b A continuación, revise la diferencia entre clases y objetos con una analogía:]
 
         .row.justify-content-center.mb-5
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="fade-up")
             .fondo-color-sistema-l.py-5.px-4.h-100
               figure.mb-5
                 img.me-auto(src="@/assets/curso/temas/10.svg",style="max-width: 81px;")
               p.mb-4.text-white #[b Una clase]
               p.mb-0.text-white Es como el plano de un apartamento, define la forma del apartamento sobre el papel, con las relaciones entre las diferentes partes claramente definidas y planeadas, a pesar de que el apartamento no exista.
-          .col-lg-4.mb-4
+          .col-lg-4.mb-4(data-aos="fade-down")
             .fondo-color-acento-contenido.py-5.px-4.h-100
               figure.mb-5
                 img.me-auto(src="@/assets/curso/temas/11.svg",style="max-width: 85px;")
               p.mb-4 #[b Un objeto]
               p.mb-0 Es el apartamento real construido de acuerdo a ese modelo; es decir, un objeto es una instancia de la clase.
 
-    p.mb-0 #[b Ejemplo:]
-    p.mb-4 En el siguiente ejemplo, se observará el código de un objeto.
+    p.mb-0(data-aos="fade-left") #[b Ejemplo:]
+    p.mb-4(data-aos="fade-left") En el siguiente ejemplo, se observará el código de un objeto.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -134,10 +134,10 @@
               br
               | ?&gt;
     
-    p.fw-bold.mb-0 Resultado
-    p.mb-4 Si se ejecutara el código, daría este resultado.
+    p.fw-bold.mb-0(data-aos="fade-right") Resultado
+    p.mb-4(data-aos="fade-right") Si se ejecutara el código, daría este resultado.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-in-out")
       .col-lg-6.col-md-9
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1.] Resultado del ejemplo
