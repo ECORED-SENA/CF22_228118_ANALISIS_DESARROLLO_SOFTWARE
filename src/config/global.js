@@ -216,7 +216,7 @@ export default {
     {
       referencia:
         'Bianco, P. (2005). Desarrollo de Aplicaciones Basadas en XML Web Service para Dispositivos Móviles con Microsoft. NET Compact Framework. Universidad de Belgrano.',
-      link: 'http://repositorio.ub.edu.ar/handle/123456789/343',
+      link: '',
     },
     {
       referencia:

@@ -34,25 +34,25 @@
                 tbody
                   tr
                     td.ps-lg-5 #[em #[b DATABASE:]]
-                    td.ps-lg-5 base de datos misma
+                    td.ps-lg-5 Base de datos misma.
                   tr
                     td.ps-lg-5 #[em #[b PROCEDURE:]]
-                    td.ps-lg-5 los procedimientos almacenados
+                    td.ps-lg-5 Los procedimientos almacenados.
                   tr
                     td.ps-lg-5 #[em #[b TRIGGER:]]
-                    td.ps-lg-5 los disparadores
+                    td.ps-lg-5 Los disparadores.
                   tr
                     td.ps-lg-5 #[em #[b DEFAULT:]]
-                    td.ps-lg-5 valores por defecto
+                    td.ps-lg-5 Valores por defecto.
                   tr
                     td.ps-lg-5 #[em #[b CREATE, ALTER y DROP INDEX:]]
-                    td.ps-lg-5 índices
+                    td.ps-lg-5 Índices.
                   tr
                     td.ps-lg-5 #[em #[b VIEW:]]
-                    td.ps-lg-5 Vistas
+                    td.ps-lg-5 Vistas.
                   tr
                     td.ps-lg-5 #[em #[b TABLE:]]
-                    td.ps-lg-5 tablas
+                    td.ps-lg-5 Tablas.
         
         .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade-up")
           .row

@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/13.png')})`}"
       )
       .bloque-texto-g__texto.p-4.px-lg-5
-        p.mb-0 Han surgido varios estándares clave que, juntos, forman la base de los servicios web: #[b XML] (#[em Extensible Markup Language]), #[b WSDL] (#[em Web Services Definition Language]), #[b SOAP] (#[em Simple Object Access Protocol]) y #[b UDDI] (#[em Universal Description, Discovery, and Integration]). Además, se ha especificado #[b ebXML] (Electronic Business XML) para facilitar la integración automatizada de procesos comerciales entre socios comerciales.
+        p.mb-0 Han surgido varios estándares clave que, juntos, forman la base de los servicios web: #[b XML] (#[em Extensible Markup Language]), #[b WSDL] (#[em Web Services Definition Language]), #[b SOAP] (#[em Simple Object Access Protocol]) y #[b UDDI] (#[em Universal Description, Discovery, and Integration]). Además, se ha especificado #[b ebXML] (#[em Electronic Business] XML) para facilitar la integración automatizada de procesos comerciales entre socios comerciales.
 
     Separador
 
@@ -98,7 +98,7 @@
                 code.text-wrap
                   | &lt;?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?&gt;
         
-        p.mb-4(data-aos="zoom-in-out") Aquí está la versión y también se agrega el tipo de codificación y el #[em standalone], que se refiere a que es un documento autónomo”
+        p.mb-4(data-aos="zoom-in-out") Aquí está la versión y también se agrega el tipo de codificación y el #[em standalone], que se refiere a que es un documento autónomo.
 
         .row.justify-content-center.align-items-center 
           .col-lg-2.col-md-4.mb-4(data-aos="fade-right")
@@ -312,7 +312,7 @@
                 .fondo-color-sistema-k.p-4.borde-10(titulo="PASO 4")
                   p.mb-0 Guardar los cambios.
                 .fondo-color-sistema-k.p-4.borde-10(titulo="PASO 5")
-                  p.mb-4 Ahora, al archivo que guardó, se le da clic derecho y se abre con el navegador #[em Google Chrome], y debe aparecer en el navegador así:
+                  p.mb-4 Ahora, al archivo que guardó, se le da clic derecho y se abre con el navegador Google Chrome, y debe aparecer en el navegador así:
                   .bloque-codigo-personalizado.h-100
                     .cuerpo-bloque-codigo.p-4.h-100.borde-12
                       code.text-wrap
@@ -354,7 +354,7 @@
                   span Para editar el código, existen muchos programas, como: Microsoft Word, bloc de notas, Notepad++ y un sin número de editores.
                 li(data-aos="fade")
                   span.c-color-secundario(style="font-size: 25px;line-height: 1;") &bull;
-                  span Para visualizar, es mejor utilizar los navegadores #[em Google Chrome] o #[em Mozilla Firefox], ya que otros pueden tener problemas de compatibilidad.
+                  span Para visualizar, es mejor utilizar los navegadores Google Chrome o Mozilla Firefox, ya que otros pueden tener problemas de compatibilidad.
                 li.mb-0(data-aos="fade")
                   span.c-color-secundario(style="font-size: 25px;line-height: 1;") &bull;
                   span XML hace distinción de la escritura en mayúsculas y minúsculas, por lo cual hay que tener cuidado en la escritura.
