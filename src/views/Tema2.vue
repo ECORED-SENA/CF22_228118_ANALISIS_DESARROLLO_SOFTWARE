@@ -142,7 +142,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1.] Resultado del ejemplo
         figure
-          img.mx-auto(src="@/assets/curso/temas/12.svg",style="max-width: 610px;",alt='Resultado del código  de un navegador web mostrando una página con el título "Objetos en PHP." Debajo del título, se indica que el objeto objPersona se llama Mario Meneses. Además, hay un saludo que dice "Hola, Aprendiz SENA.')
+          img.mx-auto(src="@/assets/curso/temas/12.png",style="max-width: 610px;",alt='Resultado del código  de un navegador web mostrando una página con el título "Objetos en PHP." Debajo del título, se indica que el objeto objPersona se llama Mario Meneses. Además, hay un saludo que dice "Hola, Aprendiz SENA.')
 
 </template>
 

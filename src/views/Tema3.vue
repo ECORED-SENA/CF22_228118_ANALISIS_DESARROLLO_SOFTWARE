@@ -119,7 +119,7 @@
                 thead
                   tr
                     th XML
-                    th.ps-lg-5.text-start Título de col2
+                    th.ps-lg-5 Título de col2
                 tbody
                   tr(style="background-color: #FFFBEA;")
                     td

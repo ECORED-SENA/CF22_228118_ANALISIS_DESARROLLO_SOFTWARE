@@ -56,7 +56,7 @@
               img.mx-auto(src="@/assets/curso/temas/6.svg",style="max-width: 610px;")
 
         .fondo-color-sistema-k.p-4.px-lg-5.mb-4(data-aos="fade-right")
-          p.mb-0 #[b Nota:] el símbolo “//” quiere decir que no hace parte del código, se lo utiliza para hacer comentarios sobre el código, por lo cual se pone en color azul.
+          p.mb-0 #[b Nota:] el símbolo “//” quiere decir que no hace parte del código, se utiliza para hacer comentarios sobre el código, por lo cual se pone en color azul.
         
         p.mb-4(data-aos="fade-left") #[b La función devuelve como resultados los números 8 y 400.]
 

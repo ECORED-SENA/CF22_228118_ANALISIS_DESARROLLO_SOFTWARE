@@ -287,8 +287,7 @@ export default {
     {
       referencia:
         'Villate, J. (2001). Introducción al XML. Universidad de Oporto.',
-      link:
-        'https://docplayer.es/1640770-Introduccion-al-xml-jaime-e-villate-universidad-de-oporto-villate-fe-up-pt-5-de-mayo-de-2001.html',
+      link: 'https://villate.org/publications/Villate_2001_XML.pdf',
     },
   ],
   creditos: [
@@ -297,12 +296,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -312,19 +311,19 @@ export default {
       autores: [
         {
           nombre: 'Jonathan Guerrero Astaiza',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Mario Fernando Meneses Calvache',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Paola Alexandra Moya Peralta',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -334,22 +333,22 @@ export default {
       autores: [
         {
           nombre: 'Carlos Julián Ramírez Benítez',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edwin Sneider Velandia Suarez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edgar Mauricio Cortés García',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Actividad didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y productor multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -359,17 +358,17 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
